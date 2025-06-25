@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Images</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="header__div">
+        <button class="header__button">
+          <img
+           src="https://cdn.glitch.global/6837e688-3134-4e31-b6e5-628acf84fecf/apps_24dp_434343_FILL0_wght400_GRAD0_opsz24.svg?v=1750189162771" 
+           class="header__img" 
+           alt="apps icon button" 
+          />
+        </button>
+        <a 
+           href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/%3Fpccc%3D1&ec=futura_exp_og_so_72776762_e"
+           class="header__anchor"
+           >
+          <span class="header__span">Sign In</span>
+        </a>
+      </div>
+    </header>
+    
+    <main>
+      <figure>
+        <img
+          src="https://cdn.glitch.global/6837e688-3134-4e31-b6e5-628acf84fecf/google_images_logo.png?v=1750372584680"
+          alt="Google Images logo"
+          class="main__img"
+        />
+      </figure>
+      <form id="form">
+        <img 
+           src="https://cdn.glitch.global/6837e688-3134-4e31-b6e5-628acf84fecf/search.svg?v=1750341778106"
+           class="form__img form__img--left"
+           id="search-icon"
+           />
+        <label for="searchbar"></label>
+        <input type="text" id="searchbar" name="searchbar">
+        <img 
+           src="https://cdn.glitch.global/6837e688-3134-4e31-b6e5-628acf84fecf/mic.svg?v=1750338443236"
+           class="form__img form__img--right"
+           id="mic-icon"
+           />
+        <img 
+           src="https://cdn.glitch.global/6837e688-3134-4e31-b6e5-628acf84fecf/image_search.svg?v=1750341853831"
+           class="form__img form__img--right"
+           id="img_search-icon"
+           />
+        <div>
+          <input type="submit" value="Google Search" class="main__input" id="btn-search" />
+        </div>
+      </form>
+    </main>
+    
+    <footer>
+      <ul class="footer" id="footer-left">
+        <li class="header__li"><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" target="_blank">About</a></li>
+        <li class="footer-link"><a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank">Advertising</a></li>
+        <li class="footer-link"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" target="_blank">Business</a></li>
+        <li class="footer-link"><a href="https://google.com/search/howsearchworks/?fg=1" target="_blank">How Search works</a></li>
+      </ul>
+      <ul class="footer" id="footer-right">
+        <li class="footer-link"><a href="https://policies.google.com/privacy?hl=en&fg=1" target="_blank">Privacy</a></li>
+        <li class="footer-link"><a href="https://policies.google.com/terms?hl=en&fg=1" target="_blank">Terms</a></li>
+        <div class="dropdown">
+          <li class="footer-link dropbtn" onclick="dropMenu()">Settings</li>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Search settings</a>
+            <a href="advanced_search.html">Advanced search</a>
+            <a href="#">Your data in Search</a>
+            <a href="#">Search history</a>
+            <a href="#">Search help</a>
+            <a href="#">Send feedback</a>
+            <a href="#">Dark theme: Off</a>
+          </div>
+        </div>
+      </ul>
+    </footer>
+  </body>
+</html>

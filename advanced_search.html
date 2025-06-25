@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Advanced Search</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styless.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img 
+        src="https://cdn.glitch.global/6837e688-3134-4e31-b6e5-628acf84fecf/google_logo.png?v=1750446621247" 
+        alt="Google logo"
+        id="google_logo"
+      />
+      
+      
+      <div class="header__div">
+        <button class="header__button">
+          <img
+           src="https://cdn.glitch.global/6837e688-3134-4e31-b6e5-628acf84fecf/apps_24dp_434343_FILL0_wght400_GRAD0_opsz24.svg?v=1750189162771" 
+           class="header__img" 
+           alt="apps icon button" 
+          />
+        </button>
+        <a 
+           href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/%3Fpccc%3D1&ec=futura_exp_og_so_72776762_e"
+           class="header__anchor"
+           >
+          <span class="header__span">Sign In</span>
+        </a>
+      </div>
+    </header>
+    
+    <main>
+      <h1>Advanced Search</h1>
+      <form>
+        <section id="section1">
+          <div class="entry">
+            <label for="all">all these words:</label>
+            <input type="text" id="all" name="all" />
+            <p>Type the important words:</p>
+            <span>tricolor rat terrier</span>
+          </div>
+          
+          <div class="entry">
+            <label for="exact">this exact word or phrase:</label>
+            <input type="text" id="exact" name="exact" />
+            <p>Put exact words in quotes:</p>
+            <span>"rat terrier"</span>
+          </div>
+          
+          <div class="entry">
+            <label for="any">any of these words:</label>
+            <input type="text" id="any" name="any" />
+            <p>Type OR between all the words you want</p>
+            <span>miniature OR standard</span>
+          </div>
+          
+          <div class="entry">
+            <label for="none">none of these words:</label>
+            <input type="text" id="none" name="none" />
+            <p>Put a minus sign just before words you don't want:</p>
+            <span>-rodent, -"Jack Russell"</span>
+          </div>
+        </section>
+        
+        <section id="section2">
+          <div class="entry">
+            <label for="lang">language:</label>
+            <select id="lang">
+              <option value="any language">Any language</option>
+              <option value="english">English</option>
+              <option value="spanish">Spanish</option>
+              <option value="vietnamese">Vietnamese</option>
+            </select>
+            <p>Find pages in the language you select.</p>
+          </div>
+          
+          <div class="entry">
+            <label for="region">region:</label>
+            <select id="region">
+              <option value="any region">Any region</option>
+              <option value="united states">United States</option>
+              <option value="spain">Spain</option>
+              <option value="vietnam">Vietnam</option>
+            </select>
+            <p>Find pages published in a particular region.</p>
+          </div>
+        </section>
+      </form>
+    </main>
+  
+    <section id="also">
+      <h2>You can also...</h2>
+      <div>
+        <a href="#">Find pages that are similar to a URL</a>
+        <a href="#">Search pages you've visited</a>
+        <a href="#">Use operators in the search box</a>
+        <a href="#">Customize your search settings</a>
+      </div>
+    </section>
+      
+    <footer>
+      <ul class="footer" id="footer-right">
+        <li class="footer-link"><a href="https://support.google.com/websearch/?p=ws_results_help&hl=en&fg=1" target="_blank">Help</a></li>
+        <li class="footer-link"><a href="https://policies.google.com/privacy?hl=en&fg=1" target="_blank">Privacy</a></li>
+        <li class="footer-link"><a href="https://policies.google.com/terms?hl=en&fg=1" target="_blank">Terms</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>

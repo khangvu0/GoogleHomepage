@@ -1,0 +1,127 @@
+:root {
+  --text: #3c4043;
+  --shaded: #f8f9fa;
+  --shaded-dark: #f7f8f9
+}
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: var(--text);
+}
+
+header {
+  width: 100%;
+  margin-bottom: 10px;
+  height: 60px;
+  padding: 6px;
+}
+
+#google_logo {
+  width: 100px;
+}
+
+.header__div {
+  float: right;
+  margin-right: 15px;
+}
+
+.header__img {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 7px;
+}
+
+.header__img:hover {
+  cursor: pointer;
+}
+
+.header__button {
+  background-color: white;
+  border: none;
+  display: inline-block;
+}
+
+.header__anchor {
+  border-radius: 100px;
+  background-color: #0b57d0;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.header__span {
+  color: white;
+}
+
+section {
+  padding: 10px 0;
+}
+
+#section2 {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.entry {
+  display: block;
+  margin: 10px 10px;
+}
+
+.entry label, .entry input, .entry p, .entry select {
+  display: inline-block;
+}
+
+h1 {
+  color: red;
+  font-size: 18px;
+  display: block;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+  font-weight: normal;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: sans-serif;
+  display: inline-block;
+  background-color: var(--shaded-dark);
+  padding: 10px 0;
+}
+
+li {
+  padding: 0 10px;
+}
+
+section a {
+  color: blue;
+  display: block;
+}
+
+#footer-right {
+  float: right;
+  margin-right: 15px;
+}
+
+footer ul li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
